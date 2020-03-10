@@ -22,6 +22,12 @@ h1{
 .Camera{
 	width: 50px;
 }
+h2{
+	font-size: 20px;
+}
+p{
+	font-size: 13px;
+}
 /* ================================= 
   Header Section Styles
 ====================================*/
@@ -31,7 +37,6 @@ header{
 h1 > span{
 	font-weight: normal;
 }
-p{font-size:13px;}
 /* ================================= 
   Image Section Styles
 ====================================*/
@@ -123,7 +128,7 @@ p{font-size:13px;}
 	background-color: #fff;
 }
 .container{
-	padding: 0 20px;
+	padding: 0 5px;
 }
 [class*='col-']{
 	width: 100%;
@@ -152,7 +157,12 @@ p{font-size:13px;}
 		float: left;
 		padding: 15px;
 	}
-
+	h2{
+		font-size: 20px;
+	}
+	p{
+		font-size: 15px;
+	}
 }
 @media(min-width: 1200px){
 	/* For desktop: */
@@ -171,6 +181,12 @@ p{font-size:13px;}
 	[class*='col-']{
 		float: left;
 		padding: 15px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	p{
+		font-size: 15px;
 	}
 }
 
